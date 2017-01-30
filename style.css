@@ -1,0 +1,157 @@
+/*
+Theme Name: BootCommerce- Nexus
+Description: This is the base theme client woocommerce sites in BS3
+Author: Daniel Alexandre
+Version 1.0
+*/
+
+/*Bootstrap CSS*/
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Theme CSS*/
+
+/*Primary Navigation*/
+.topNav_wrap_main
+{
+    float: right;
+    z-index: 998;
+
+    height: 45px;
+    margin-top: 25px;
+    margin-right: 25px;
+    z-index: 999;
+}
+.topNav_wrap_right
+{
+    float: right;
+
+    width: inherit;
+    height: inherit;
+}
+.topNav_wrap_left
+{
+    float: left;
+
+    width: inherit;
+    height: inherit;
+}
+.topNav
+{
+    font-size: 0;
+
+    width: inherit;
+    height: inherit;
+
+    text-align: center;
+}
+.topNav li
+{
+    font-family: Tahoma,Verdana, Segoe, sans-serif;
+    font-size: 25px;
+
+    display: inline-block;
+}
+.topNav li a
+{
+    float: right;
+
+    height: inherit;
+    padding: 5px 10px;
+
+    list-style: none;
+
+    transition: color .35s ease-in 0s;
+    text-decoration: none;
+
+    color: white;
+}
+.topNav li a:hover
+{
+    color: #111;
+}
+.aboutLink
+{
+    cursor: pointer;
+}
+#sidenav_icon
+{
+    display: none;
+    float: right;
+
+    margin-left: 13px;
+
+    cursor: pointer;
+
+    border-bottom-right-radius: 15px;
+    background-image: url('images/menu_white.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Side Nav*/
+
+.sidenav
+{
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Stay on top */
+    top: 0;
+    right: 0;
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    width: 0; /* 0 width - change this with JavaScript */
+    height: 100%; /* 100% Full-height */
+    padding-top: 60px; /* Place content 60px from the top */
+
+    transition: .5s; /* 0.5 second transition effect to slide in the sidenav */
+
+    border-bottom-right-radius: 15px;
+    background-color: #111; /* Black*/
+}
+
+.sidenav ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.sidenav a
+{
+    font-size: 25px;
+
+    display: block;
+
+    padding: 8px 8px 8px 32px;
+
+    transition: .3s;
+    text-decoration: none;
+
+    color: white;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus
+{
+    color: #f1f1f1;
+}
+
+.closebtn
+{
+    font-size: 36px !important;
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+
+    margin-left: 50px;
+}
+
+/*Site Header*/
+.site-header{
+	height: 500px;
+	background-image: url("images/shop.jpg");
+	background-size: 100% 100%;
+}
